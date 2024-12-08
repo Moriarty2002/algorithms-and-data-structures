@@ -46,30 +46,30 @@ if __name__ == "__main__":
     
     V = 10
     coins = [1, 5]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 7
     coins = [1, 3, 4, 5]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 59
     coins = [2, 7, 15]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 99
     coins = [10, 20, 30, 12]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 3
     coins = [7, 15]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 0
     coins = [2, 7, 15]
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     V = 13
     coins = []
-    print(f"\nBudget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
+    print(f"\nTarget: {V}, Coins: {coins} \nSolution (min number of coins): {find_min_coin(V, coins)}")
     
     
