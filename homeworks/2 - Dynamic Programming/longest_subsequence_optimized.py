@@ -30,23 +30,17 @@ def max_subarray(nums, n: int = None, memoized_optimal: list = None, current_max
     return memoized_optimal[n]
     
 
-# Esempio di utilizzo
 nums = [4, -1, 2, 1, -5, 4]
-print("La somma massima del sottoarray è:", max_subarray(nums))
+print(f"Max subsequence for {nums} is: {max_subarray(nums)}" )
 
-# Esempio di utilizzo
 nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-print("La somma massima del sottoarray è:", max_subarray(nums))
+print(f"Max subsequence for {nums} is: {max_subarray(nums)}" )
 
-
-# Esempio di utilizzo
 nums = [-1, -3, 4, 2]
-print("La somma massima del sottoarray è:", max_subarray(nums))
+print(f"Max subsequence for {nums} is: {max_subarray(nums)}" )
 
-# Esempio di utilizzo
 nums = [-1, 2, -5, 7]
-print("La somma massima del sottoarray è:", max_subarray(nums))
+print(f"Max subsequence for {nums} is: {max_subarray(nums)}" )
 
-# Esempio di utilizzo
 nums = [-1, 2, -5, 7, -1, 3]
-print("La somma massima del sottoarray è:", max_subarray(nums))
+print(f"Max subsequence for {nums} is: {max_subarray(nums)}" )
