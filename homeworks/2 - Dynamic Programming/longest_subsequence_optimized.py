@@ -10,17 +10,13 @@ def max_subarray(nums, n: int = None, memoized_optimal: list = None, current_max
         is_first_call = True
 
     
-    if not n: # base case with subsequence of length n
+    if not n: # base case with a subsequence of length 0
         memoized_optimal[0] = nums[0]
         return nums[0]
     
-    if memoized_optimal[n] is not None:
-        return memoized_optimal[n]
-    
-    # Recursivamente trova la somma massima che termina in n
     memoized_optimal[n] = max(nums[n], nums[n] + max_subarray(nums, n - 1, memoized_optimal, current_max))
     
-    if memoized_optimal[n] > current_max["value"]:
+    if memoized_optimal[n] > current_max["value"]: # update max sum
         current_max["value"] = memoized_optimal[n]
         current_max["position"] = n
     
